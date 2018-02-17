@@ -10,25 +10,27 @@ body {
   text-align: center;
   margin: auto;
 }
+
 header {
   border-bottom: solid;
   width: 901px auto;
-  height: 120px;
-
+  height: 90px;
+  padding-top: 40px;
 }
 header nav div h1{
   font-family: 'Yellowtail', cursive;
+  display:inline;
 }
 #icons{
   width:50%;
   display: inline;
 }
 #headLogo {
-  text-align: left;
-  width: 50%;
-  outline:orange;
   float:left;
-  display: inline-block;
+  z-index: -1;
+}
+#logotext{
+display:inline;
 }
 nav div h1 {
   font-size: 2.3em;
@@ -47,63 +49,124 @@ nav ul {
 nav li {
   display: inline;
 }
-
+#chocolatepizza{
+  font-family: 'Coda Caption', sans-serif;
+  font-size:2em;
+  font-weight:lighter;
+}
 hr {
   height: 6px;
   background: url(http://ibrahimjabbari.com/english/images/hr-11.png);
   border: 0;
-
+}
+#logotext h3{
+  font-family: 'Coda Caption', sans-serif;
+  font-size: .6em;
+  text-transform: uppercase;
 }
 
 main {
+  margin-top: 35px;
   width: 901px;
 }
 main h1 {
+  font-weight:bolder;
   text-align: left;
   font-size: 2.8em;
 }
+
 main h3 {
   text-align: left;
 }
-main div img {
-  align-content: right;
-  margin-right: 0px;
+#print{
+   float:right;
+   margin-bottom: 20px;
+   color:silver;
 }
-main h4 {
-  text-align: right;
+#print img{
+  display:inline;
+}
+h4{
+  display:inline;
+  font-size:.6em;
+  text-transform: uppercase;
+}
+#postdate{
+  margin-top:5px;
+  text-transform:uppercase;
+  display:inline-block;
+  float: left;
+  font-size:.6em;
+  font-family: 'Noto Serif', serif;
+  color: silver
 }
 p {
   text-align: left;
   margin-top: 25px;
   margin-bottom: 25px;
   text-indent: 25px;
+  line-height: 25px;
+  letter-spacing: .2px;
+  font-family: 'Noto Serif', serif;
 }
 article {
-  background: url('../images/list-bg.png');
-}
-article ul{
-  
+  background: url(img/list-bg.png);
+  margin-bottom: 40px;
+  padding:40px 80px 80px 80px;
+  line-height:30px;
+  font-size:1.05em;
 }
 #rec1 {
   display: inline-block;
   text-align: left;
   float: left;
-  width: 50%
+  width: 50%;
 }
 #rec2 {
   display:inline;
   text-align: left;
   width: 50%;
+  position: relative;
+}
+footer{
+  margin-top: 25px
 }
 #vanessa{
   float: left;
+  margin-right:1%;
 }
 #author{
   text-align: left;
+  font-weight:bolder;
+  padding:0px 0px 12px 0px;
+  font-size:1em;
 }
-#desc{
+#bio{
   float:left;
+  width:60%;
+  text-align:left;
+  font-size:1em;
+  margin-right:10%
+}
+button {width:20%;
+  background-color: orange;
+  border: none;
+  color: white;
+  padding: 10px 45px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: .7em;
+  float: right;
+}
+#credits{
+  margin-bottom: 100px
 }
 #smallogo{
-  display:block;
+  display:inline;
+  margin-bottom:25px;
+}
+#legal
+{
+  margin: 20px 0px 70px 0px; 
 }

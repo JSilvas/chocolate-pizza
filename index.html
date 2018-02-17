@@ -7,6 +7,8 @@
     <link rel="stylesheet" type="text/css" href="css/reset.css" />
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <link href="https://fonts.googleapis.com/css?family=Yellowtail" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Coda+Caption:800" rel="stylesheet">
+    
     <title>Chocolate Pizza</title>
   </head>
   <body>  
@@ -14,8 +16,10 @@
       <nav>
         <div id="headLogo">
           <img src="img/logo.png" />
-          <h1>Delicious</h1>
-          <h3>The Best Food Blog On The Web.</h3>
+          <div id='logotext'>
+            <h1>Delicious</h1>
+            <h3 id='tagline'>The Best Food Blog On The Web.</h3>
+          </div>
         </div>
         <div id="icons">
           <ul>
@@ -33,10 +37,10 @@
         </div>
       </nav>  
     </header>
-    <hr>
+    <hr id='tophr'>
     <main>
-      <h1>Chocolate Pizza</h1>
-      <h3>Posted on 15 Dec 2013/Desserts</h3>
+      <h1 id='chocolatepizza'>Chocolate Pizza</h1>
+      <h3 id='postdate'>Posted on 15 Dec 2013/Desserts</h3>
       
       <div id="print">
         <img src="img/print-icon.png" />
@@ -49,7 +53,6 @@
         <p>Ice cream: In a small pot over medium heat, combine milk, and granulated sugar until sugar is completely dissolved and the milk is just barely lukewarm. Whisk in the egg yolks. Set mixture in the fridge and wait until the fig mixture is cooled.</p>
         <p>Using an ice cream machine, pour liquids into the frozen basin and process according to manufacturer instructions, i.e., let spin and thicken for 20 minutes before adding mascarpone, fig jam mixture, and the nuts. Continue to preocess for +/- 10 minutes. Pour semi-frozen mixture into a pyrex dish or glass tupperware. Freeze for at least two hours before serving.</p>
       </section>
-      
       <article> 
         <ul id="rec1">
           <li><input id="toggle" type="checkbox">1 1/2 cups milk</li>
@@ -71,14 +74,15 @@
     </main>
     <hr>
     <footer>
-      <img src="img/van-pic.png" id='vanessa'/>
-      <h2 id='author'>Vanessa Stevenson</h2>
-      Food enthusiast, photography fan. Add a pinch of raw foodism and that's who I am.</div>
-      <button>Share Recipe</button>
+      <section id='credits'>
+        <img src="img/van-pic.png" id='vanessa'/>
+        <h2 id='author'>Vanessa Stevenson</h2>
+        <div id='bio'>Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am.</div>
+        <button>SHARE RECIPE</button>
+      </section>
       <img src="img/small-logo.png" id='smalllogo'/>
-      <br>
-      <h3>Delicious © 2013 • All Rights Reserved.</h3>
-      <h3>Proudly published with Ghost.</h3>
+      <section id='legal'><h3 id='copyright'>Delicious © 2013 • All Rights Reserved.</h3>
+      <h3>Proudly published with Ghost.</h3></section>
     </footer>
   </body>
 </html>
