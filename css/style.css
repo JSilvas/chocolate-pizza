@@ -2,7 +2,9 @@
   font-family: Arial, sans-serif;
   /* outline: dashed orange; */
 }
-
+ul{
+  list-style: none;
+}
 body {
   width: 901px;
   text-align: center;
@@ -14,9 +16,19 @@ header {
   height: 120px;
 
 }
+header nav div h1{
+  font-family: 'Yellowtail', cursive;
+}
+#icons{
+  width:50%;
+  display: inline;
+}
 #headLogo {
   text-align: left;
-  padding-top: 20px, 30px;
+  width: 50%;
+  outline:orange;
+  float:left;
+  display: inline-block;
 }
 nav div h1 {
   font-size: 2.3em;
@@ -29,9 +41,7 @@ nav h3 {
 }
 nav ul {
   display: inline-block;
-  margin-left: 10px;
   float: right;
-
 }
 
 nav li {
@@ -40,10 +50,9 @@ nav li {
 
 hr {
   height: 6px;
-  background: url(http://ibrahimjabbari.com/english/images/hr-11.png
-http://ibrahimjabbari.com/english/images/hr-11.png
-) 
+  background: url(http://ibrahimjabbari.com/english/images/hr-11.png);
   border: 0;
+
 }
 
 main {
@@ -70,18 +79,31 @@ p {
   text-indent: 25px;
 }
 article {
-  background: url('img/list-bg.png');
+  background: url('../images/list-bg.png');
+}
+article ul{
+  
 }
 #rec1 {
-  margin: 30px 60px 30px 0px;
   display: inline-block;
   text-align: left;
   float: left;
   width: 50%
 }
 #rec2 {
+  display:inline;
   text-align: left;
-  outline: dashed orange;
-  float: left;
   width: 50%;
+}
+#vanessa{
+  float: left;
+}
+#author{
+  text-align: left;
+}
+#desc{
+  float:left;
+}
+#smallogo{
+  display:block;
 }
